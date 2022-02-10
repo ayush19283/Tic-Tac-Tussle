@@ -1,10 +1,10 @@
 {
-  "version": 3,
+  "version": 2,
   "artifactType": {
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.zero_cross",
+  "applicationId": "com.ankit.online_tic_tac_toe",
   "variantName": "debug",
   "elements": []
 }

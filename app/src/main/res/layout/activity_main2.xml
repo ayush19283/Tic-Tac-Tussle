@@ -24,6 +24,7 @@
             android:gravity="center_horizontal" />
 
         <LinearLayout
+            android:id="@+id/base_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -141,6 +142,31 @@
             </RelativeLayout>
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/game_code"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_text"
+            android:textColor="@color/white"
+            android:text="@string/game_code"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <TextView
+            android:id="@+id/game_text"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/base_layout"
+            android:textColor="@color/white"
+            android:text="Waiting for any user to join..."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40sp"/>
 
 
 

@@ -29,11 +29,17 @@
             android:layout_height="wrap_content"
             android:hint="Enter username..."/>
 
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/global_username"/>
+
 
         <Button
             android:id="@+id/enter"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/global_username"
+            android:layout_below="@+id/hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#0000"

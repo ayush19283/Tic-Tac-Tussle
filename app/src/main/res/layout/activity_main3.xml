@@ -43,7 +43,6 @@
         android:layout_marginTop="260dp"
         android:text="Created by Ayush Sharma"
         android:textColor="#ffffff"
-        app:layout_constraintBaseline_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/play_ag" />

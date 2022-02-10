@@ -1,20 +1,18 @@
 {
-  "version": 3,
+  "version": 2,
   "artifactType": {
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.zero_cross",
+  "applicationId": "com.ankit.online_tic_tac_toe",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "attributes": [],
       "versionCode": 1,
       "versionName": "1.0",
       "outputFile": "AndroidManifest.xml"
     }
-  ],
-  "elementType": "File"
+  ]
 }

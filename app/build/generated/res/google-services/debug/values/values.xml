@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">802945866164-7jks9l8pf8ku6u8g0nsm2j953d0r26m3.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">802945866164</string>
+    <string name="google_api_key" translatable="false">AIzaSyA44qUrwfCQqlRjus5KAVWJUnPuyuseo-c</string>
+    <string name="google_app_id" translatable="false">1:802945866164:android:6c70c6dc0b9eddd8c6fae1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA44qUrwfCQqlRjus5KAVWJUnPuyuseo-c</string>
+    <string name="google_storage_bucket" translatable="false">fcmpushnotification-e6d74.appspot.com</string>
+    <string name="project_id" translatable="false">fcmpushnotification-e6d74</string>
+</resources>
