@@ -57,6 +57,7 @@ public class MainActivity4 extends AppCompatActivity implements View.OnClickList
             Intent intent = new Intent(this, OnlineGameActivity.class);
             Globals.user_type = "user_1";
             Globals.current_user_symbol = "X";
+            Globals.current_opponent_symbol = "O";
             startActivity(intent);
         }
 

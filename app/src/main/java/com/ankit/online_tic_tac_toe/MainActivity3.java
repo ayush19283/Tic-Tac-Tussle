@@ -31,6 +31,13 @@ public class MainActivity3 extends AppCompatActivity {
         else if(score==3){
             txt.setText("DRAW");
         }
+        else if(score==4){
+            txt.setText("OPPONENT WON!");
+        }
+        else if(score==5){
+            txt.setText("YOU WIN!");
+        }
+        Globals.reset_variables();
         Button play_button = findViewById(R.id.play_ag);
         play_button.setOnClickListener(new View.OnClickListener() {
             @Override

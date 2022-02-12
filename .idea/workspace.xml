@@ -6,13 +6,23 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53aafc6-72eb-4752-af27-891b35ac9222" name="Default Changelist" comment="" />
+    <list default="true" id="c53aafc6-72eb-4752-af27-891b35ac9222" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/FirebaseMessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/FirebaseMessageReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/Globals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/MainActivity3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/MainActivity3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/MainActivity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/MainActivity4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/OnlineGameActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/OnlineGameActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/custom_dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ankit/online_tic_tac_toe/custom_dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_custom_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_custom_dialog.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C6DESKTGEMH6E6IF]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -26,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="24u0sYnse79rqqooCZRAOyeL5Lq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,6 +142,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1644496829443">
       <screen x="0" y="0" width="1536" height="824" />
@@ -141,22 +166,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1644465671134" />
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1644506103557">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1644651195746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1644506103557" />
-    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1644506103557">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1644651195746" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1644651195746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1644506103557" />
-    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1644506103557">
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1644651195746" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1644651195746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1644506103557" />
-    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1644506103557">
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1644651195746" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1644651195746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1644506103557" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1644651195746" />
     <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1644465885176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -43,7 +43,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#0000"
-            android:clickable="true"
             android:text="Enter"
             android:textColor="#5698ac" />
 

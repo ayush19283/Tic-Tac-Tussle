@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -33,6 +34,9 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
+import static com.ankit.online_tic_tac_toe.Globals.game_started;
+import static com.ankit.online_tic_tac_toe.Globals.this_user_chance;
+
 public class custom_dialog extends Dialog {
 
 
@@ -55,6 +59,20 @@ public class custom_dialog extends Dialog {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_dialog);
         enter=findViewById(R.id.enter);
+
+        enter.setOnClickListener(v -> {
+            Globals.user_type = "user_2";
+            Globals.current_user_symbol = "O";
+            Globals.current_opponent_symbol = "X";
+            Globals.GAME_CODE = global_username.getText().toString();
+            AsyncTask<String, String, String> rtask = new retrievedata();
+            rtask.execute(Globals.join_game_url.get_url(Globals.GAME_CODE));
+            System.out.println(Globals.join_game_url.get_url(Globals.GAME_CODE));
+            game_started = true;
+            this_user_chance = false;
+            Intent intent = new Intent(this.activity, OnlineGameActivity.class);
+            this.activity.startActivity(intent);
+        });
 
         username_hint = findViewById(R.id.hint);
         global_username = findViewById(R.id.global_username);
@@ -80,7 +98,7 @@ public class custom_dialog extends Dialog {
 
                     }
                     task = new retrievedata();
-                    task.execute(Globals.join_game_url.get_url(s.toString()));
+                    task.execute(Globals.check_game_url.get_url(s.toString()));
 
                 }
             }
@@ -89,10 +107,6 @@ public class custom_dialog extends Dialog {
             public void afterTextChanged(Editable s) {
 
             }
-        });
-        enter = (Button) findViewById(R.id.enter);
-        enter.setOnClickListener(v -> {
-                System.out.println(st);
         });
 
     }

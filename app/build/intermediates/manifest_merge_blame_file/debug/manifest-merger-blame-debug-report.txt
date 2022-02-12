@@ -40,159 +40,158 @@
 23-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:10:9-54
 24        android:supportsRtl="true"
 24-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:11:9-35
-25        android:testOnly="true"
-26        android:theme="@style/Theme.Onlinetictactoe" >
-26-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:12:9-53
-27        <activity android:name="com.ankit.online_tic_tac_toe.OnlineGameActivity" />
-27-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:13:9-65
-27-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:13:19-53
-28        <activity
-28-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:14:9-17:72
-29            android:name="com.ankit.online_tic_tac_toe.MainActivity4"
-29-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:15:13-42
-30            android:exported="false"
-30-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:16:13-37
-31            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" />
-31-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:17:13-69
-32        <activity
-32-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:18:9-21:72
-33            android:name="com.ankit.online_tic_tac_toe.MainActivity3"
-33-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:19:13-42
-34            android:exported="false"
-34-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:20:13-37
-35            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" />
-35-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:21:13-69
-36        <activity
-36-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:22:9-26:72
-37            android:name="com.ankit.online_tic_tac_toe.MainActivity2"
-37-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:23:13-42
-38            android:exported="false"
-38-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:24:13-37
-39            android:noHistory="true"
-39-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:25:13-37
-40            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" />
-40-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:26:13-69
-41        <activity
-41-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:27:9-36:20
-42            android:name="com.ankit.online_tic_tac_toe.MainActivity"
-42-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:28:13-41
-43            android:exported="true"
-43-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:29:13-36
-44            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" >
-44-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:30:13-69
-45            <intent-filter>
-45-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:31:13-35:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:32:17-69
-46-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:32:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:34:17-77
-48-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:34:27-74
-49            </intent-filter>
-50        </activity>
-51
-52        <service android:name="com.ankit.online_tic_tac_toe.FirebaseMessageReceiver" >
-52-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:38:9-42:19
-52-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:38:18-57
-53            <intent-filter>
-53-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:39:13-41:29
-54                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-54-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:17-78
-54-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:25-75
-55            </intent-filter>
-56        </service>
-57        <!--
-58             FirebaseMessagingService performs security checks at runtime,
-59             no need for explicit permissions despite exported="true"
-60        -->
-61        <service
-61-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\f3bdba5f3e998b89a0c0a274b2167b71\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
-62            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-62-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\f3bdba5f3e998b89a0c0a274b2167b71\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
-63            android:exported="true" >
-63-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\f3bdba5f3e998b89a0c0a274b2167b71\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
-64            <intent-filter android:priority="-500" >
-64-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:39:13-41:29
-65                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-65-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:17-78
-65-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:25-75
-66            </intent-filter>
-67        </service>
-68        <service
-68-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
-69            android:name="com.google.firebase.components.ComponentDiscoveryService"
-69-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
-70            android:exported="false" >
-70-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
-71            <meta-data
-71-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
-72                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-72-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
-73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
-74        </service>
-75
-76        <receiver
-76-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
-77            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-77-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
-78            android:exported="true"
-78-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
-79            android:permission="com.google.android.c2dm.permission.SEND" >
-79-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
-80            <intent-filter>
-80-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
-81                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-81-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
-81-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
-82            </intent-filter>
-83        </receiver>
-84        <!--
-85             FirebaseInstanceIdService performs security checks at runtime,
-86             no need for explicit permissions despite exported="true"
-87        -->
-88        <service
-88-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
-89            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-89-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
-90            android:exported="true" >
-90-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
-91            <intent-filter android:priority="-500" >
-91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
-92                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-92-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-92-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
-93            </intent-filter>
-94        </service>
-95
-96        <provider
-96-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-97            android:name="com.google.firebase.provider.FirebaseInitProvider"
-97-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-98            android:authorities="com.ankit.online_tic_tac_toe.firebaseinitprovider"
-98-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-99            android:exported="false"
-99-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-100            android:initOrder="100" />
-100-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-106
-107        <meta-data
-107-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\c26f04c6289114d419bff1c6009f270c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-108            android:name="com.google.android.gms.version"
-108-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\c26f04c6289114d419bff1c6009f270c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-109            android:value="@integer/google_play_services_version" />
-109-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\c26f04c6289114d419bff1c6009f270c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-110    </application>
-111
-112</manifest>
+25        android:theme="@style/Theme.Onlinetictactoe" >
+25-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:12:9-53
+26        <activity android:name="com.ankit.online_tic_tac_toe.OnlineGameActivity" />
+26-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:13:9-65
+26-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:13:19-53
+27        <activity
+27-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:14:9-17:72
+28            android:name="com.ankit.online_tic_tac_toe.MainActivity4"
+28-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:15:13-42
+29            android:exported="false"
+29-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:16:13-37
+30            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" />
+30-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:17:13-69
+31        <activity
+31-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:18:9-21:72
+32            android:name="com.ankit.online_tic_tac_toe.MainActivity3"
+32-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:19:13-42
+33            android:exported="false"
+33-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:20:13-37
+34            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" />
+34-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:21:13-69
+35        <activity
+35-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:22:9-26:72
+36            android:name="com.ankit.online_tic_tac_toe.MainActivity2"
+36-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:23:13-42
+37            android:exported="false"
+37-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:24:13-37
+38            android:noHistory="true"
+38-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:25:13-37
+39            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" />
+39-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:26:13-69
+40        <activity
+40-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:27:9-36:20
+41            android:name="com.ankit.online_tic_tac_toe.MainActivity"
+41-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:28:13-41
+42            android:exported="true"
+42-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:29:13-36
+43            android:theme="@style/Theme.Onlinetictactoe.NoActionBar" >
+43-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:30:13-69
+44            <intent-filter>
+44-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:31:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:32:17-69
+45-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:32:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:34:17-77
+47-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service android:name="com.ankit.online_tic_tac_toe.FirebaseMessageReceiver" >
+51-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:38:9-42:19
+51-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:38:18-57
+52            <intent-filter>
+52-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:39:13-41:29
+53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+53-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:17-78
+53-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:25-75
+54            </intent-filter>
+55        </service>
+56        <!--
+57             FirebaseMessagingService performs security checks at runtime,
+58             no need for explicit permissions despite exported="true"
+59        -->
+60        <service
+60-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\f3bdba5f3e998b89a0c0a274b2167b71\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+61            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+61-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\f3bdba5f3e998b89a0c0a274b2167b71\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+62            android:exported="true" >
+62-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\f3bdba5f3e998b89a0c0a274b2167b71\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+63            <intent-filter android:priority="-500" >
+63-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:39:13-41:29
+64                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+64-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:17-78
+64-->C:\Users\Ankit\AndroidStudioProjects\Onlinetictactoe\app\src\main\AndroidManifest.xml:40:25-75
+65            </intent-filter>
+66        </service>
+67        <service
+67-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+70            <meta-data
+70-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+71-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+73        </service>
+74
+75        <receiver
+75-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+76            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+76-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+77            android:exported="true"
+77-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+78            android:permission="com.google.android.c2dm.permission.SEND" >
+78-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+79            <intent-filter>
+79-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+80                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+80-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+80-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+81            </intent-filter>
+82        </receiver>
+83        <!--
+84             FirebaseInstanceIdService performs security checks at runtime,
+85             no need for explicit permissions despite exported="true"
+86        -->
+87        <service
+87-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+88            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+88-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+89            android:exported="true" >
+89-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+90            <intent-filter android:priority="-500" >
+90-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+90-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+91                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+91-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0426dba62f359adec1873b4af01417dd\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+92            </intent-filter>
+93        </service>
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+97            android:authorities="com.ankit.online_tic_tac_toe.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+98            android:exported="false"
+98-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+99            android:initOrder="100" />
+99-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\0f8848132e5d7beac210c25c98e2d504\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\e0af047fb9bde7b360b0e152985bd1f2\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\c26f04c6289114d419bff1c6009f270c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\c26f04c6289114d419bff1c6009f270c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Ankit\.gradle\caches\transforms-2\files-2.1\c26f04c6289114d419bff1c6009f270c\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+109    </application>
+110
+111</manifest>
