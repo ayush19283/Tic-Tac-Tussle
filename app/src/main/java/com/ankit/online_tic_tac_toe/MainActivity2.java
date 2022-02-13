@@ -138,6 +138,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
                     Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
                     intent.putExtra("win", 1);
                     startActivity(intent);
+                    win=1;
 
                 }
 //                if(chance==9){
@@ -171,6 +172,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
                     Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
                     intent.putExtra("win",2);
                     startActivity(intent);
+                    win=1;
 
                 }
 
@@ -186,7 +188,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
             }
             chance++;
-            if(chance==9){
+            if(chance==9 && win==0){
                 declare();
             }
         }
